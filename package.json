@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "bun --hot src/index.tsx",
+    "lint": "biome lint",
     "start": "NODE_ENV=production bun src/index.tsx",
     "build": "bun run build.ts"
   },
